@@ -1,0 +1,42 @@
+import { Circle } from 'konva/lib/shapes/Circle';
+import { FastLayer } from 'konva/lib/FastLayer';
+import { Group } from 'konva/lib/Group';
+import { Label, Tag } from 'konva/lib/shapes/Label';
+import { Rect } from 'konva/lib/shapes/Rect';
+import { Ellipse } from 'konva/lib/shapes/Ellipse';
+import { Layer } from 'konva/lib/Layer';
+import { Arc } from 'konva/lib/shapes/Arc';
+import { Arrow } from 'konva/lib/shapes/Arrow';
+import { Image } from 'konva/lib/shapes/Image';
+import { Line } from 'konva/lib/shapes/Line';
+import { Path } from 'konva/lib/shapes/Path';
+import { RegularPolygon } from 'konva/lib/shapes/RegularPolygon';
+import { Ring } from 'konva/lib/shapes/Ring';
+import { Star } from 'konva/lib/shapes/Star';
+import { Text } from 'konva/lib/shapes/Text';
+import { TextPath } from 'konva/lib/shapes/TextPath';
+import { Wedge } from 'konva/lib/shapes/Wedge';
+import { Transformer } from 'konva/lib/shapes/Transformer';
+export const ShapeTypes = {
+    Arc,
+    Arrow,
+    Circle,
+    Ellipse,
+    Image,
+    Label,
+    Tag,
+    Line,
+    Path,
+    Rect,
+    RegularPolygon,
+    Ring,
+    Star,
+    Text,
+    TextPath,
+    Transformer,
+    Wedge,
+    Group,
+    Layer,
+    FastLayer,
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic2hhcGVUeXBlcy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uL3Byb2plY3RzL25nMi1rb252YS9zcmMvbGliL3V0aWxzL3NoYXBlVHlwZXMudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFFLE1BQU0sRUFBRSxNQUFNLHlCQUF5QixDQUFDO0FBQ2pELE9BQU8sRUFBRSxTQUFTLEVBQUUsTUFBTSxxQkFBcUIsQ0FBQztBQUNoRCxPQUFPLEVBQUUsS0FBSyxFQUFFLE1BQU0saUJBQWlCLENBQUM7QUFDeEMsT0FBTyxFQUFFLEtBQUssRUFBRSxHQUFHLEVBQUUsTUFBTSx3QkFBd0IsQ0FBQztBQUNwRCxPQUFPLEVBQUUsSUFBSSxFQUFFLE1BQU0sdUJBQXVCLENBQUM7QUFDN0MsT0FBTyxFQUFFLE9BQU8sRUFBRSxNQUFNLDBCQUEwQixDQUFDO0FBQ25ELE9BQU8sRUFBRSxLQUFLLEVBQUUsTUFBTSxpQkFBaUIsQ0FBQztBQUN4QyxPQUFPLEVBQUUsR0FBRyxFQUFFLE1BQU0sc0JBQXNCLENBQUM7QUFDM0MsT0FBTyxFQUFFLEtBQUssRUFBRSxNQUFNLHdCQUF3QixDQUFDO0FBQy9DLE9BQU8sRUFBRSxLQUFLLEVBQUUsTUFBTSx3QkFBd0IsQ0FBQztBQUMvQyxPQUFPLEVBQUUsSUFBSSxFQUFFLE1BQU0sdUJBQXVCLENBQUM7QUFDN0MsT0FBTyxFQUFFLElBQUksRUFBRSxNQUFNLHVCQUF1QixDQUFDO0FBQzdDLE9BQU8sRUFBRSxjQUFjLEVBQUUsTUFBTSxpQ0FBaUMsQ0FBQztBQUNqRSxPQUFPLEVBQUUsSUFBSSxFQUFFLE1BQU0sdUJBQXVCLENBQUM7QUFDN0MsT0FBTyxFQUFFLElBQUksRUFBRSxNQUFNLHVCQUF1QixDQUFDO0FBQzdDLE9BQU8sRUFBRSxJQUFJLEVBQUUsTUFBTSx1QkFBdUIsQ0FBQztBQUM3QyxPQUFPLEVBQUUsUUFBUSxFQUFFLE1BQU0sMkJBQTJCLENBQUM7QUFDckQsT0FBTyxFQUFFLEtBQUssRUFBRSxNQUFNLHdCQUF3QixDQUFDO0FBQy9DLE9BQU8sRUFBRSxXQUFXLEVBQUUsTUFBTSw4QkFBOEIsQ0FBQztBQUUzRCxNQUFNLENBQUMsTUFBTSxVQUFVLEdBQUc7SUFDeEIsR0FBRztJQUNILEtBQUs7SUFDTCxNQUFNO0lBQ04sT0FBTztJQUNQLEtBQUs7SUFDTCxLQUFLO0lBQ0wsR0FBRztJQUNILElBQUk7SUFDSixJQUFJO0lBQ0osSUFBSTtJQUNKLGNBQWM7SUFDZCxJQUFJO0lBQ0osSUFBSTtJQUNKLElBQUk7SUFDSixRQUFRO0lBQ1IsV0FBVztJQUNYLEtBQUs7SUFDTCxLQUFLO0lBQ0wsS0FBSztJQUNMLFNBQVM7Q0FDVixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgQ2lyY2xlIH0gZnJvbSAna29udmEvbGliL3NoYXBlcy9DaXJjbGUnO1xuaW1wb3J0IHsgRmFzdExheWVyIH0gZnJvbSAna29udmEvbGliL0Zhc3RMYXllcic7XG5pbXBvcnQgeyBHcm91cCB9IGZyb20gJ2tvbnZhL2xpYi9Hcm91cCc7XG5pbXBvcnQgeyBMYWJlbCwgVGFnIH0gZnJvbSAna29udmEvbGliL3NoYXBlcy9MYWJlbCc7XG5pbXBvcnQgeyBSZWN0IH0gZnJvbSAna29udmEvbGliL3NoYXBlcy9SZWN0JztcbmltcG9ydCB7IEVsbGlwc2UgfSBmcm9tICdrb252YS9saWIvc2hhcGVzL0VsbGlwc2UnO1xuaW1wb3J0IHsgTGF5ZXIgfSBmcm9tICdrb252YS9saWIvTGF5ZXInO1xuaW1wb3J0IHsgQXJjIH0gZnJvbSAna29udmEvbGliL3NoYXBlcy9BcmMnO1xuaW1wb3J0IHsgQXJyb3cgfSBmcm9tICdrb252YS9saWIvc2hhcGVzL0Fycm93JztcbmltcG9ydCB7IEltYWdlIH0gZnJvbSAna29udmEvbGliL3NoYXBlcy9JbWFnZSc7XG5pbXBvcnQgeyBMaW5lIH0gZnJvbSAna29udmEvbGliL3NoYXBlcy9MaW5lJztcbmltcG9ydCB7IFBhdGggfSBmcm9tICdrb252YS9saWIvc2hhcGVzL1BhdGgnO1xuaW1wb3J0IHsgUmVndWxhclBvbHlnb24gfSBmcm9tICdrb252YS9saWIvc2hhcGVzL1JlZ3VsYXJQb2x5Z29uJztcbmltcG9ydCB7IFJpbmcgfSBmcm9tICdrb252YS9saWIvc2hhcGVzL1JpbmcnO1xuaW1wb3J0IHsgU3RhciB9IGZyb20gJ2tvbnZhL2xpYi9zaGFwZXMvU3Rhcic7XG5pbXBvcnQgeyBUZXh0IH0gZnJvbSAna29udmEvbGliL3NoYXBlcy9UZXh0JztcbmltcG9ydCB7IFRleHRQYXRoIH0gZnJvbSAna29udmEvbGliL3NoYXBlcy9UZXh0UGF0aCc7XG5pbXBvcnQgeyBXZWRnZSB9IGZyb20gJ2tvbnZhL2xpYi9zaGFwZXMvV2VkZ2UnO1xuaW1wb3J0IHsgVHJhbnNmb3JtZXIgfSBmcm9tICdrb252YS9saWIvc2hhcGVzL1RyYW5zZm9ybWVyJztcblxuZXhwb3J0IGNvbnN0IFNoYXBlVHlwZXMgPSB7XG4gIEFyYyxcbiAgQXJyb3csXG4gIENpcmNsZSxcbiAgRWxsaXBzZSxcbiAgSW1hZ2UsXG4gIExhYmVsLFxuICBUYWcsXG4gIExpbmUsXG4gIFBhdGgsXG4gIFJlY3QsXG4gIFJlZ3VsYXJQb2x5Z29uLFxuICBSaW5nLFxuICBTdGFyLFxuICBUZXh0LFxuICBUZXh0UGF0aCxcbiAgVHJhbnNmb3JtZXIsXG4gIFdlZGdlLFxuICBHcm91cCxcbiAgTGF5ZXIsXG4gIEZhc3RMYXllcixcbn07XG4iXX0=
